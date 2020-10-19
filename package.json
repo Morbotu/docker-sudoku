@@ -1,0 +1,19 @@
+{
+  "name": "sudoku-app",
+  "version": "1.0.0",
+  "description": "Hello, this is a html website where you can play sudoku's. I made it to learn angularjs. I think it worked out very well. Only to loading can take a bit long.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Rombout Jansen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
